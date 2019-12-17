@@ -29,46 +29,9 @@ KAGGLE_KEY=**votre_clé_api**
 
 ## Composition du projet
 
+* Une Exploratory Data Analysis (EDA) avec Python ;
 * Une prédiction avec BigML ;
 * Une prédiction avec SkLearn.
-
-## Sommaire
-
-~~~html
-1. 1ERE PARTIE - OPERATIONS SUR LE TRAINFULL SET
-  - Importation des modules obligatoires
-  - Lecture des fichiers CSV nécessaires
-  - Traitement du fichier "kaggle-give-me-credit-train.csv" (trainfull)
-  - Création d'une source de données à partir du fichier
-  - Transformation de la source en un ensemble de données traité et préparé pour le modèle
-  - Division de cet ensemble de données en 2 pour entrainement du modèle
-  - Création d'un modèle prédictif de type "Model" 
-  - Mise en place d'une prédiction et traitement du fichier généré
-
-2. 2EME PARTIE - VERIFICATION DE L'EFFICACITE DU MODELE
-  - Evaluation de notre modèle
-  - Matrice de confusion
-  - Accuracy
-  - Précision
-  - Recall
-  - Tri des 100 plus grosses erreurs
-  - Seuil et matrice de coûts / gains
-  - Visualisation graphique de la matrice de coûts
-  - AUC
-  - Visualisation graphique de l'AUC
-  - Visualisations graphiques des learning curves
-
-3. 3EME PARTIE - OPERATIONS SUR LE TEST SET
-  - Traitement du fichier "kaggle-give-me-credit-test.csv" (test)
-  - Création d'une source de données à partir du fichier
-  - Transformation de la source en un ensemble de données traité et préparé pour le modèle
-  - Création d'un modèle prédictif de type "Model" 
-  - Mise en place d'une prédiction
-
-4. 4EME PARTIE - FORMATTAGE DU FICHIER ET ENVOI A KAGGLE
-  - Formattage du fichier de prédictions finales
-  - Envoi à Kaggle
-~~~
 
 ## Auteur
 
